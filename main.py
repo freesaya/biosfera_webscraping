@@ -32,7 +32,8 @@ try:
                 'Name': product_name,
                 'Price': product_price,
                 'Date': datetime.now().strftime("%Y-%m-%d"),
-                'Time': datetime.now().strftime("%H:%M:%S")
+                #'Time': datetime.now().strftime("%H:%M:%S")
+                'Time': None  
             })
 
     if products:
