@@ -11,7 +11,7 @@ base_url = 'https://biosfera.kz/product/category?path=13&page='
 products = []
 
 # number of attempts
-max_attempts = 155
+max_attempts = 205
 
 try:
     for attempt in range(1, max_attempts + 1):
