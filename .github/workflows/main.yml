@@ -1,8 +1,8 @@
 name: Every day Run Python Script
 
 on:
-  schedule:
-    - cron: '*/30 * * * *'  # Runs every day at 3:00 AM (night)
+  #schedule:
+    #- cron: '* * * * *'  # Runs every day at 3:00 AM (night)
   workflow_dispatch:
 
 
